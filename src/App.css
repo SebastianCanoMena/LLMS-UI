@@ -1,11 +1,18 @@
+body{
+  color: white;
+}
 .app-div {
   height: 100vh;
+  background-image: url(https://www.xtrafondos.com/wallpapers/nebula-colorida-en-el-espacio-5829.jpg);
 }
 
 .body-input {
-
+  border: none;
+  background-color: transparent;
+  width: 500px;
+  color: white;
 }
 
 .body-output {
-
+  
 }
