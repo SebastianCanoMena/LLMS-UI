@@ -1,9 +1,6 @@
 body{
   color: white;
-}
-.app-div {
-  height: 100vh;
-  background-image: url(https://www.xtrafondos.com/wallpapers/nebula-colorida-en-el-espacio-5829.jpg);
+  background-color: black;
 }
 
 .body-input {
@@ -17,8 +14,9 @@ body{
   background-color: rgb(233, 238, 243, .3);
 }
 
-.menu {
-  
+.menu-link{
+  text-decoration: none;
+  color: white;
 }
 
 .menu-col{

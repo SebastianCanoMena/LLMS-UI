@@ -1,17 +1,20 @@
-import Body from "./components/body";
-import Menu from "./components/menu";
-
+import Body from "./components/Body";
+import {Route, Routes} from 'react-router-dom'
+import Layout from "./components/Layout/Layout";
+import History from "./components/History";
+import Account from "./components/Account";
+import Settings from "./components/Settings";
 
 function App() {
   return (
-    <div className="container-fluid w-100 d-flex flex-row app-div">
-      <div className="col-3">
-        <Menu/>
-      </div>
-      <div className="col-11">
-        <Body/>
-      </div> 
-    </div>
+    <Layout>
+    <Routes>
+        <Route path="/" element={<Body/>}/>
+        <Route path="history" element={<History/>}/>
+        <Route path="account" element={<Account/>}/>
+        <Route path="settings" element={<Settings/>}/>
+    </Routes>
+    </Layout>
   )
 }
 

@@ -1,4 +1,3 @@
-import sendIcon from '../images/sendIcon.svg'
 
 export default function Body()
 {
@@ -16,7 +15,6 @@ export default function Body()
   
 			<div className="col-9 align-self-end mb-4 bg-success w-100">
 			  <input type="text" value="Enter your thought" className="my-5 px-3 bg-gray body-input"/>
-			  <img src={sendIcon} />
 			</div>
 		  </div>
 		</div>
