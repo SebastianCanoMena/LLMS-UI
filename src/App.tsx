@@ -1,4 +1,3 @@
-import Body from "./components/Body";
 import {Route, Routes} from 'react-router-dom'
 import Layout from "./components/Layout/Layout";
 import History from "./components/History";
@@ -9,7 +8,7 @@ function App() {
   return (
     <Layout>
     <Routes>
-        <Route path="/" element={<Body/>}/>
+        
         <Route path="history" element={<History/>}/>
         <Route path="account" element={<Account/>}/>
         <Route path="settings" element={<Settings/>}/>

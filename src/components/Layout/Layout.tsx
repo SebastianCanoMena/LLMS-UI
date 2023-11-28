@@ -1,9 +1,9 @@
-import Menu from "./menu";
+import Body from "../Body"
 
 export default function Layout(props:any){
     return(
         <>
-        <Menu/>
+        <Body/>
         <div>
             {props.children}
         </div>

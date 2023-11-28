@@ -25,6 +25,7 @@ body{
   border-bottom: none;
   min-width: 90%;
   min-height: 600px;
+  background-color: rgb(233, 238, 243, .3);;
 }
 
 .menu-link{
@@ -35,6 +36,8 @@ body{
 .menu-col{
   padding: 20px;
   font-size: 20px;
-  border: 5px solid rgb(233, 238, 243, .3);
-  
+  background-color:azure;
+  border: 5px solid darkgray;
+  margin-right: 70%;
 }
+
