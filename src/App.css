@@ -1,43 +1,52 @@
 body{
-  color: #CC2936;
+  color: #1C2321;
   background-color: black;
-  margin: 50px;
-  min-height: 100%;
-  max-height: 100%;
+}
+
+/*Body component*/
+.body-div-parent{
+  display: flex;
+  flex-direction: column;
+}
+
+.body-output {
+  border: 1px solid #A9B4C2;
+  border-bottom: none;
+  height: 90vh;
+  background-color: #5E6572;
 }
 
 .body-input-form{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 100%;
+  width: 100%;
+  height: 50px;
 }
 
 .body-input {
-  border: 2px solid rgb(233, 238, 243, .3);
-  background-color: transparent;
-  min-width: 100%;
-  color: #CC2936;
+  background-color: #EEF1EF;
+  flex: 1;
+  outline: none;
+  border: 1px solid #1C2321;
 }
 
-.body-output {
-  border: 5px solid rgb(233, 238, 243, .3);
-  border-bottom: none;
-  min-width: 90%;
-  min-height: 600px;
-  background-color: rgb(233, 238, 243, .3);;
+.body-send-button{
+  background-color: #EEF1EF;
+  border: none;
+  border: 1px solid #1C2321;
+  border-left:none;
 }
 
+/*Menu component*/
 .menu-link{
   text-decoration: none;
-  color: #CC2936;
+  color: #1C2321;
 }
 
 .menu-col{
   padding: 20px;
   font-size: 20px;
-  background-color:azure;
-  border: 5px solid darkgray;
+  background-color:#EEF1EF;
+  border: 1px solid #A9B4C2;
   margin-right: 70%;
 }
 

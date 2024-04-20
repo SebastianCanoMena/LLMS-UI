@@ -12,7 +12,7 @@ export default function Body()
 	}
 
 	return(
-		<div>
+		<div className="body-div-parent">
 			<div className="body-output">
 				<button onClick={a}><img src={menuIcon}  /></button>
 				{display && <Menu/>}
@@ -24,7 +24,7 @@ export default function Body()
   
 				<form className="body-input-form">
 			  		<input type="text" placeholder="Escriba una pregunta" className="body-input"/>
-			  		<button type="submit" className="button"><img src={send}/></button>
+			  		<button type="submit" className="body-send-button"><img src={send}/></button>
 			  	</form>
 
 		</div>
